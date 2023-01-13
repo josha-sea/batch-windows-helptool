@@ -18,6 +18,6 @@ Download or clone the git repo:
 
 ## Usage
 After downloading or cloning the git repo, run the batch script.
-NOTE: Must be executed as administrator -> Richt click on batch script and click "Run as Administrator"
+NOTE: Must be executed as administrator -> Right click on batch script and click "Run as Administrator"
 
 by Josha Sea
