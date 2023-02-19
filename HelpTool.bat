@@ -61,7 +61,7 @@ CLS
 ECHO ============INVALID INPUT============
 ECHO -------------------------------------
 ECHO Please select a number from the Main
-ECHO Menu [1-9] or select 'Q' to quit.
+ECHO Menu [1-6] or select 'Q' to quit.
 ECHO -------------------------------------
 ECHO ======PRESS ANY KEY TO CONTINUE======
 
